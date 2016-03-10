@@ -1,0 +1,141 @@
+$white:#fff;
+$yellow:#fdf63b;
+$off-white:#dfdfdf;
+$gray:b2b2b2;
+$dkgray:#999999;
+$red:#ff2f2e;
+$width:80%;
+$padding:10%;
+$font:16px;
+
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+body{
+	font-size:$font;
+}
+h1{
+	font-size:$font + 8;
+}
+h2{
+	font-size:$font + 6;
+}
+h3{
+	font-size:$font + 4;
+}
+h4{
+	font-size:$font + 2;
+}
+a{
+	text-decoration:none;
+	color:#333;
+}
+li{
+	list-style:none;
+}
+.clfloat{
+	clear:both;
+}
+.img{
+	width:100%;
+	height:auto;
+}
+#logo{
+	float:left;
+	width:200px;
+}
+#menu{
+	float:right;
+	ul{
+		li{
+			display:inline;
+			a{
+				display:block;
+				marginl-right:50px;
+			}
+		}
+	}
+}
+#services{
+	width:$width;
+	padding:20px $padding;
+	
+	.services-div{
+	width:30%;
+	height:450px;
+	float:left;
+	img{
+		width:100%;
+		height:auto;
+	}
+	.services-desc{
+		padding:20px;
+		h3{
+			margin-bottom:20px;
+		}
+	}
+	}
+}
+#abour{
+	.about-info{
+	background-color:$off-white;
+	padding:20px 20px 20px $padding;
+	float:left;
+	width:40%;
+	}
+	.img-div{
+	float:right;
+	width:40%;
+	}
+	#about-quality{
+	background-color:$yellow;
+	width:$width;
+	padding:20px $padding;
+		qu-sub-div{
+			width:15%;
+			padding:0 5%;
+			h1{
+				color:$white;
+				font-size:$font + 22px;
+			}
+			p{
+				color:$dkgray;
+				font-size:$font;
+			}
+		}
+	}
+}
+#project{
+	width:$width;
+	padding:20px $padding;
+	.pro-img{
+		width:47%;
+		height:auto;
+	}
+}
+footer{
+	width:$width;
+	padding:20px $padding;
+	p{
+		float:left;
+		text-align:left;
+	}
+	#social-media{
+		width:50%;
+		float:right;
+		ul{
+			text-align-right;
+			li{
+				display:inline;
+				a{
+					display:block;
+					width:50px;
+					border-radius:50%;
+					margin-left:10px;
+				}
+			}
+		}
+	}
+}
